@@ -45,7 +45,7 @@ while interruptor == 1:
 
         try:
             # Executa la consulta
-            cursor.execute("SELECT nom_llinatges, Data, Hora FROM Alumnat, Acces WHERE Alumnat.UID = Acces.UID AND Data = ?", (data,))
+            cursor.execute("SELECT nom_llinatges, Data FROM Alumnat, Acces WHERE Alumnat.UID = Acces.UID AND Data = ?", (data,))
 
             # Ens mostra els resulats
             resultados = cursor.fetchall()
