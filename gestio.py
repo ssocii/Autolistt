@@ -122,7 +122,6 @@ while interruptor == 1:
             # Tancar el cursor i la conexió
             cursor.close()
             conex.close()
-
             clear()
         
         except mariadb.Error as e: # En cas de que no s'executi bé la consulta ens donarà un error
