@@ -15,9 +15,9 @@ while interruptor == 1:
     # Establir la connexió amb la DB
     conex = mariadb.connect(
         host="localhost",
-        user="auto",
-        password="Autoli.23",
-        database="autolistt"
+        user="**********",
+        password="**********",
+        database="**********"
     )
 
     # Crear un cursor per executar les consultes
